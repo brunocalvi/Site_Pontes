@@ -20,7 +20,7 @@ ul {
 	width: 100px;
 }
 
-main {
+main, .content {
 	width: 980px;
 	position: relative;
 	margin: 0 auto;
@@ -192,6 +192,118 @@ li.slick-active button {
 .slick-dots li {
     padding-left: 10px;
     display: inline-block;
+}
+
+.texto-destaque {
+    text-align: center;
+}
+
+.texto-destaque strong {
+    color: #646464;
+}
+
+.texto-destaque h1 {
+    color: #818181;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.texto-destaque p {
+    font-size: 15px;
+    color: #9a9a9a;  
+}
+
+.image_apesentacao {
+    color: #818181;
+    font-size: 100px;
+}
+
+.col-3 {
+    width: 29%;
+    float: left;
+    position: relative;
+    padding:  0px 15px;
+}
+
+.bloco-texto {
+    margin-top: 3em;
+}
+
+h3 {
+    font-weight: normal!impotant;
+    color: #818181;
+}
+
+h3 b {
+    color: #646464;
+}
+
+/* seção dos cards */
+
+.section-cards {
+    clear: both;
+    background-color: #ddd;
+    width: 100%;
+	float: left;
+	position: relative;
+    margin-top: 30px 0;
+    padding: 30px 0;
+}
+
+.cards {
+    width: 980px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.card {
+    width: 29%;
+    height: 350px;
+    float: left;
+    position: relative;
+    margin: 15px;
+    border: 1px solid #b3b3b3;
+}
+
+.imagem-card {
+    width: 100%;
+    height: 200px
+}
+
+.texto-card {
+    padding: 0 10px;
+}
+
+.texto-card h3 {
+    color: #646464;  
+}
+
+.texto-card p {
+   color: #818181;
+}
+
+/* secao logos */
+
+.secao-logos {
+    clear: both;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.logos {
+    width: 980px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+}
+
+.logo {
+    
+}
+
+.img-empresas {
+    width: 200px
 }
 
 
