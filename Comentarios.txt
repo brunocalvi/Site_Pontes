@@ -1,0 +1,4 @@
+Pagina feita com HTML, CSS e JS
+
+Utilizando a biblioteca SlickSlide para criação do slider carrocel
+segue documentação para conheciemnto: http://kenwheeler.github.io/slick/
