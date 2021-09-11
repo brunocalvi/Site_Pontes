@@ -282,29 +282,74 @@ h3 b {
    color: #818181;
 }
 
-/* secao logos */
-
-.secao-logos {
-    clear: both;
-    width: 100%;
-    float: left;
-    position: relative;
-}
-
-.logos {
-    width: 980px;
-    position: relative;
-    margin: 0 auto;
-    display: flex;
-}
-
-.logo {
-    
-}
-
 .img-empresas {
     width: 200px
 }
+
+.col-4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.col-4 img {
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.bloco-logos {
+    height: 200px;
+    margin-top: 30px;
+}
+
+.footer {
+    background-color: #4d4d4d;
+    color: #fff;
+}
+
+.footer h3 {
+    text-align: left;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.footer p {
+    text-align: left;
+    padding:5px 3px;
+    font-size: 15px;
+}
+
+.footer i {
+    float: left;
+    padding: 0 5px;
+}
+
+.tags {
+   padding: 0 15px 0 0!important; 
+}
+
+.tags b {
+    font-size: 21px;
+}
+
+.textoAbout {
+    padding: 13px!important;
+}
+
+.textGet {
+    padding: 0 13px!important;
+}
+
+.contato {
+    margin: 10px!important;
+}
+
+.contato p {
+    margin: 7px;
+}
+
 
 
 
