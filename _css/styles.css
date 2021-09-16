@@ -7,7 +7,7 @@ body {
 }
 
 ul {
-	padding: 0px!important;
+	padding: 0px!important;  
 }
 
 .menu-principal {
@@ -94,7 +94,7 @@ main, .content {
 
 .busca {
 	width: 30%;
-	float: right;
+	float: left;
 	text-align: center;
 }
 
@@ -246,7 +246,6 @@ h3 b {
     width: 100%;
 	float: left;
 	position: relative;
-    margin-top: 30px 0;
     padding: 30px 0;
 }
 
@@ -263,6 +262,16 @@ h3 b {
     position: relative;
     margin: 15px;
     border: 1px solid #b3b3b3;
+}
+
+.logos {
+    display: inline-flex;
+   
+}
+
+.logos div {
+    padding: 20px;
+    margin: 0 auto;
 }
 
 .imagem-card {
@@ -297,11 +306,6 @@ h3 b {
     margin: 0 auto;
     text-align: center;
     padding-top: 1em;
-}
-
-.bloco-logos {
-    height: 200px;
-    margin-top: 30px;
 }
 
 .footer {
@@ -348,6 +352,89 @@ h3 b {
 
 .contato p {
     margin: 7px;
+}
+
+@media (max-width: 600px) {
+    main, .content {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .section-cards {
+        display: inline-flex;
+    }
+    
+    .card {
+        min-width: 250px;
+        margin: 10px 50px;
+    }
+      
+    .logos {
+        display: inline-block;
+        width: 100%;
+        display:table;
+    }
+    
+    .logos div {
+        text-align: center;
+        vertical-align:middle;
+        padding: 20px;
+    }
+    
+    .icones-sociais {
+        display: inline-flex; 
+    }
+    
+    .redes-sociais {
+        float: none;
+        width: 100%
+    }
+    
+    .menu-principal {
+        height: auto;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .logo {
+        width: 100%;
+    }
+    
+    .bloco-texto {
+        min-width: 200px;
+    }
+    
+    .centalizar {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+       
+    .texto-destaque p {
+        padding: 10px;
+    }
+    
+    .slick-dots {
+       left: 35%; 
+    }
+    
+    .slick-initialized {
+        height: 400px;
+    }
+    
+    .slider-principal img {
+        height: 400px;
+    }
+    
+    .col-4 {
+        min-width: 250px;
+    }
 }
 
 
